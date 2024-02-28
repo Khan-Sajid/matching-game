@@ -1,0 +1,20 @@
+.loader {
+  position: relative;
+  background: #e2f2f5;
+  height: 20px;
+  border-radius: 4px;
+}
+.progress-banana {
+  right: -35px;
+  top: -26px;
+  transform: rotate(-28deg);
+  width: 60px;
+  position: absolute;
+}
+.progress {
+  background-color: #fce492;
+  background-image: url("../../assets/progressUnit.png");
+  position: absolute;
+  height: 100%;
+  border-radius: 4px;
+}

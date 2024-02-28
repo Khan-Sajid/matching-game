@@ -1,0 +1,117 @@
+.reward-screen {
+  background: #0000006e;
+}
+.back-button {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 120px;
+}
+.reward-container {
+  width: 375px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+.relative-container {
+  position: relative;
+}
+.result-text {
+  position: absolute;
+  top: 132px;
+  left: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button-text {
+  position: absolute;
+  bottom: 26px;
+  left: 42px;
+  width: 283px;
+  border-radius: 25px;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 66px;
+  text-align: center;
+  color: #ffff;
+}
+.earn {
+  text-align: center;
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 22px;
+}
+.number {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 38px;
+  color: #ffff;
+}
+.monkey {
+  position: absolute;
+  width: 189px;
+  left: 50%;
+  top: 62%;
+  translate: -50% -50%;
+}
+.banana {
+  position: absolute;
+  width: 83px;
+}
+.banana1 {
+  left: -66px;
+  top: 139px;
+  transform: rotate(30deg);
+}
+.banana2 {
+  left: 100px;
+  right: 100px;
+  transform: rotate(-30deg);
+}
+.banana3 {
+  right: 177px;
+  bottom: -54px;
+  transform: rotate(69deg);
+}
+.banana4 {
+  right: 139px;
+  top: 109px;
+  transform: rotate(-240deg);
+}
+.banana5 {
+  left: -62px;
+  bottom: 123px;
+  transform: rotate(-164deg);
+}
+.banana6 {
+  right: -113px;
+  top: 179px;
+  transform: rotate(167deg);
+}
+.bananas {
+  position: absolute;
+  top: 50%;
+  animation: rotateBanana 20s infinite;
+  left: 50%;
+  z-index: 1;
+}
+
+@keyframes rotateBanana {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.progress-bar {
+  position: absolute;
+  top: 20px;
+  width: 50%;
+  left: 50%;
+  translate: -50%;
+}

@@ -1,0 +1,33 @@
+.match-screen {
+  width: 100%;
+  height: 100%;
+  background: #0000006e;
+  z-index: 1;
+}
+.fruit-card {
+  width: 170px;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+}
+.match-text {
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  font-size: 51px;
+  font-weight: 800;
+  line-height: 63px;
+  text-align: center;
+  color: #ffff;
+  text-shadow: -2px 2px 0 #ef8f35, 2px 2px 0 #ef8f35, 2px -2px 0 #ef8f35,
+    -2px -2px 0 #ef8f35;
+}
+.fruit {
+  rotate: -22deg;
+  transform: translate(-24px, -162px);
+  z-index: 1;
+}
+.name {
+  rotate: 30deg;
+  transform: translate(59px, -100px);
+}

@@ -1,0 +1,59 @@
+.back-button {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 120px;
+}
+img {
+    width: 100%;
+}
+.intro-button {
+    position: absolute;
+    right: 70px;
+    bottom: 40px;
+    width: 240px;
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 200px;
+    width: calc(100% - 200px);
+    gap: 65px;
+    padding: 0 100px;
+}
+.cards{
+    background: white;
+    padding: 20px;
+    border-radius: 30px;
+    position: relative;
+    width: 200px;
+}
+.cards h4{
+    color: #11AEC6;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 22px;
+    text-align: center;
+    padding: 0 20px;
+}
+.cards p{
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 14px;
+    text-align: center;
+    color: #A6C930;
+}
+.placeHolder{
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    width: 40px;
+}
+.placeHolder p{
+    position:absolute;
+    left: 10px;
+    bottom: 22px;
+    font-size: 16px;
+    color: white;
+}

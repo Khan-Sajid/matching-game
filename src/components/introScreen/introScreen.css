@@ -1,0 +1,56 @@
+.intro-monkey{
+    position: absolute;
+    width: 500px;
+    bottom: 18px;
+    left: 50%;
+    translate: -50%;
+}
+.intro-text{
+    position: absolute;
+    right: 177px;
+    top: 100px;
+    width: 500px;
+}
+.text-box{
+    width: 100%;
+    position: relative;
+}
+.text-container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 16px;
+    left: 50px;
+    width: 80%;
+    height: 50%;
+}
+.text{
+    font-size: 41px;
+    font-weight: 800;
+    line-height: 44px;
+    margin: 0;
+    color: #11AEC6;;
+}
+.back-button{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 120px;
+}
+.intro-setting{
+    position: absolute;
+    left: 70px;
+    bottom: 55px;
+    display: flex;
+    gap: 30px;
+}
+.intro-setting img{
+ width: 50px;
+}
+.intro-button{
+    position: absolute;
+    right: 70px;
+    bottom: 40px;
+    width: 240px;
+}
